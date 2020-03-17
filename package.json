@@ -1,8 +1,8 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "This is multiple translator project. Developer : SEHUN PARK",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
@@ -18,5 +18,6 @@
     "google-translate": "^3.0.0",
     "nodemon": "^2.0.2",
     "request": "^2.88.2"
-  }
+  },
+  "homepage": "http://multranslator.com"
 }
