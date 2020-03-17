@@ -51,6 +51,20 @@ app.post('/api/translate/google', async function (req, res) {
                 return 'ko';
             case 'zh-CN':
                 return 'zh';
+            case 'ja':
+                return 'ja';
+            case 'vi':
+                return 'vi';
+            case 'de':
+                return 'de';
+            case 'es':
+                return 'es';
+            case 'ru':
+                return 'ru';
+            case 'it':
+                return 'it';
+            case 'fr':
+                return 'fr';
         }
     }
 
@@ -85,6 +99,14 @@ app.post('/api/translate/papago', async function (req, res) {
             return res.json({message:'error'});
         }
         var parsingData = JSON.parse(response.body);
+        // console.log(parsingData);
+        if(parsingData.errorCode==='N2MT02' || parsingData.errorCode==='N2MT04' || parsingData.errorCode==='N2MT06'){
+            return res.json({
+                message:'success',
+                targetData: req.body.targetData,
+                translatedText: '네이버는 이 번역을 지원 하지 않습니다.',
+            })
+        }
         return res.json({
             message:'success',
             targetData: req.body.targetData,
@@ -100,6 +122,20 @@ app.post('/api/translate/papago', async function (req, res) {
                 return 'ko';
             case 'zh-CN':
                 return 'zh-CN';
+            case 'ja':
+                return 'ja';
+            case 'vi':
+                return 'vi';
+            case 'de':
+                return 'de';
+            case 'es':
+                return 'es';
+            case 'ru':
+                return 'ru';
+            case 'it':
+                return 'it';
+            case 'fr':
+                return 'fr';
         }
     }
 })
@@ -140,6 +176,20 @@ app.post('/api/translate/amazon', async function (req, res) {
                 return 'ko';
             case 'zh-CN':
                 return 'zh';
+            case 'ja':
+                return 'ja';
+            case 'vi':
+                return 'vi';
+            case 'de':
+                return 'de';
+            case 'es':
+                return 'es';
+            case 'ru':
+                return 'ru';
+            case 'it':
+                return 'it';
+            case 'fr':
+                return 'fr';
         }
     }
 

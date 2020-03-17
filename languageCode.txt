@@ -1,7 +1,15 @@
 Multi-Translator{
-    영어 en
-    한국어 ko
-    중국어 간체 zh-CN
+    구글-아마존-네이버
+    영어 en     en en en
+    한국어 ko   ko ko ko
+    중국어 간체 zh-CN       zh zh zh-CN
+    일본어 ja       ja ja ja
+    베트남어 vi     vi vi vi
+    독일어	de      de de de
+    스페인어 es     es es es
+    러시아어 ru     ru ru ru
+    이탈리아어 it       it it it
+    프랑스어 fr     fr fr fr
 }
 구글{
     // 갈라시아어	gl
