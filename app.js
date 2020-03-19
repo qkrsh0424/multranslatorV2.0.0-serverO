@@ -195,6 +195,11 @@ app.post('/api/translate/amazon', async function (req, res) {
 
 })
 
+// 개인정보 처리정책
+app.get('/privacy_policy', function(req,res){
+    res.sendFile(__dirname+'/public/Multranslator_privacy.html');
+});
+
 // Deploy Setting
 app.use(express.static(path.join(__dirname, "../client/build")));
 
