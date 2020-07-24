@@ -200,6 +200,18 @@ app.get('/privacy_policy', function(req,res){
     res.sendFile(__dirname+'/public/Multranslator_privacy.html');
 });
 
+
+// app.get('/',function(req,res){
+//     // var request = require('request');
+//     var cheerio = require('cheerio');
+//     var $ = cheerio.load(fs.readFileSync('../client/build/index.html'));
+//     console.log($.html());
+//     $('div#root').append('<h1>hello world</h1>');
+//     res.send($.html());
+//     // console.log(html);
+    
+// });
+
 // Deploy Setting
 app.use(express.static(path.join(__dirname, "../client/build")));
 
