@@ -1,0 +1,35 @@
+.Mtl-List-Wrapper{
+    padding:15px;
+    font-family: -apple-system,BlinkMacSystemFont,'Malgun Gothic','맑은 고딕',helvetica,'Apple SD Gothic Neo',sans-serif;
+    line-height:1.5;
+}
+
+.Mtl-List-Wrapper h3{
+    font-size:1.27em;
+    font-weight: 700;
+}
+
+.Mtl-List-Group{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Mtl-List-Item{
+    border:1px solid #f1f1f1;
+    border-radius:15px;
+    padding: 20px;
+    margin-top:8px;
+}
+
+.Mtl-List-HeadPart{
+    font-size:17px;
+    font-weight: 700;
+    padding:8px 0 ;
+    font-family: -apple-system,BlinkMacSystemFont,'Malgun Gothic','맑은 고딕',helvetica,'Apple SD Gothic Neo',sans-serif;
+}
+
+.Mtl-Memo{
+    font-size:13px;
+    text-align:center;
+}
