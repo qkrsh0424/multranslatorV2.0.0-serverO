@@ -10,6 +10,8 @@ Multi-Translator{
     러시아어 ru     ru ru ru
     이탈리아어 it       it it it
     프랑스어 fr     fr fr fr
+    태국어 th th th
+    인도네시아어 id id id
 }
 구글{
     // 갈라시아어	gl

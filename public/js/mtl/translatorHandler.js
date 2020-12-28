@@ -95,6 +95,8 @@ function getField(jsonData) {
                                             <option value="ru">러시아어</option>
                                             <option value="it">이탈리아어</option>
                                             <option value="fr">프랑스어</option>
+                                            <option value="th">태국어</option>
+                                            <option value="id">인도네시아어</option>
                                         </select>
                                     </div>
                                     <textarea class="Mtl-Target-Textarea" id="textArea-${jsonData.id}" placeholder="google translator..." readonly></textarea>
@@ -133,6 +135,8 @@ function getField(jsonData) {
                                             <option value="ru">러시아어</option>
                                             <option value="it">이탈리아어</option>
                                             <option value="fr">프랑스어</option>
+                                            <option value="th">태국어</option>
+                                            <option value="id">인도네시아어</option>
                                         </select>
                                     </div>
                                     <textarea class="Mtl-Target-Textarea" id="textArea-${jsonData.id}" placeholder="papago translator..." readonly></textarea>
@@ -173,6 +177,8 @@ function getField(jsonData) {
                                             <option value="ru">러시아어</option>
                                             <option value="it">이탈리아어</option>
                                             <option value="fr">프랑스어</option>
+                                            <option value="th">태국어</option>
+                                            <option value="id">인도네시아어</option>
                                         </select>
                                     </div>
                                     <textarea class="Mtl-Target-Textarea" id="textArea-${jsonData.id}" placeholder="amazon translator..." readonly></textarea>

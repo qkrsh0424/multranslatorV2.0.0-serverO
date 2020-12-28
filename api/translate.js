@@ -73,6 +73,10 @@ app.post('/translate/google', async function (req, res) {
                 return 'it';
             case 'fr':
                 return 'fr';
+            case 'th':
+                return 'th';
+            case 'id':
+                return 'id';
         }
     }
 
@@ -148,6 +152,10 @@ app.post('/translate/papago', async function (req, res) {
                 return 'it';
             case 'fr':
                 return 'fr';
+            case 'th':
+                return 'th';
+            case 'id':
+                return 'id';
         }
     }
 })
@@ -206,6 +214,10 @@ app.post('/translate/amazon', async function (req, res) {
                 return 'it';
             case 'fr':
                 return 'fr';
+            case 'th':
+                return 'th';
+            case 'id':
+                return 'id';
         }
     }
 
